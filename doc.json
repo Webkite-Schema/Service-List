@@ -1,0 +1,285 @@
+{
+  "facets": [
+    {
+      "name": "Name",
+      "type": "Text",
+      "metadata": {
+        "sortable": true,
+        "filterable": false
+      }
+    },
+    {
+      "name": "Description",
+      "type": "Text",
+      "metadata": {
+        "sortable": false,
+        "filterable": false
+      }
+    },
+    {
+      "name": "Category",
+      "type": "Enum",
+      "metadata": {
+        "sortable": false,
+        "filterable": true,
+        "groupable": true
+      }
+    },
+    {
+      "name": "Sub-Category",
+      "type": "Enum",
+      "metadata": {
+        "sortable": false,
+        "filterable": true
+      }
+    },
+    {
+      "name": "Price",
+      "type": "Number",
+      "metadata": {
+        "sortable": true,
+        "filterable": false
+      }
+    },
+    {
+      "name": "Unit",
+      "type": "Text",
+      "metadata": {
+        "sortable": false,
+        "filterable": false
+      }
+    }
+  ],
+  "aliases": {
+    "Hebrew": {
+      "_metadata": {
+        "display_name": "רשימת שירותים",
+        "display_language": "עברית",
+        "phrases": {
+          "Sort": "מיון",
+          "Filter": "סינון",
+          "More": "עוד",
+          "Less": "סגור",
+          "Sorry, no results": "מצטערים, אין תוצאות",
+          "There are no results to display based on the selected filters. Try removing a filter to see more results.": "",
+          "and": "וגם",
+          "or": "או",
+          "Details": "לפרטים"
+        }
+      },
+      "Name": "שם ושם משפחה",
+      "Description": "תיאור",
+      "Category": "קטגוריה",
+      "Sub-Category": "תת-קטגוריה",
+      "Price": "מחיר",
+      "Unit": "יחידה"
+    },
+    "Hindi": {
+      "_metadata": {
+        "display_name": "सेवा की सूची",
+        "display_language": "हिन्दी",
+        "phrases": {
+          "Sort": "तरह",
+          "Filter": "फिल्टर",
+          "More": "अधिक",
+          "Less": "कम",
+          "Sorry, no results": "क्षमा करें, परिणाम नहीं",
+          "There are no results to display based on the selected filters. Try removing a filter to see more results.": "",
+          "and": "और",
+          "or": "या",
+          "Details": "विवरण"
+        }
+      },
+      "Name": "नाम",
+      "Description": "विवरण",
+      "Category": "श्रेणी",
+      "Sub-Category": "उप वर्ग",
+      "Price": "मूल्य",
+      "Unit": "इकाई"
+    },
+    "Chinese (Mandarin)": {
+      "_metadata": {
+        "display_name": "服务名录",
+        "display_language": "普通话",
+        "phrases": {
+          "Sort": "排序",
+          "Filter": "筛选",
+          "More": "更多",
+          "Less": "收起",
+          "Sorry, no results": "不好意思，没有结果",
+          "There are no results to display based on the selected filters. Try removing a filter to see more results.": "",
+          "and": "和",
+          "or": "或",
+          "Details": "细节"
+        }
+      },
+      "Name": "名字",
+      "Description": "描述",
+      "Category": "类别",
+      "Sub-Category": "子分类",
+      "Price": "价格",
+      "Unit": "单位"
+    },
+    "Spanish": {
+      "_metadata": {
+        "display_name": "Lista de servicios",
+        "display_language": "Español",
+        "phrases": {
+          "Sort": "Ordenar",
+          "Filter": "Filtro",
+          "More": "Más",
+          "Less": "Menos",
+          "Sorry, no results": "Lo sentimos, no hay resultados",
+          "There are no results to display based on the selected filters. Try removing a filter to see more results.": "",
+          "and": "y",
+          "or": "o",
+          "Details": "Detalles"
+        }
+      },
+      "Name": "Nombre",
+      "Description": "Descripción",
+      "Category": "Categoría",
+      "Sub-Category": "Subcategoría",
+      "Price": "Precio",
+      "Unit": "Unidad"
+    },
+    "Portuguese": {
+      "_metadata": {
+        "display_name": "Lista de serviços",
+        "display_language": "Português",
+        "phrases": {
+          "Sort": "Tipo",
+          "Filter": "Filtro",
+          "More": "Mais",
+          "Less": "Menos",
+          "Sorry, no results": "Desculpe, não houve resultados",
+          "There are no results to display based on the selected filters. Try removing a filter to see more results.": "",
+          "and": "e",
+          "or": "ou",
+          "Details": "Detalhes"
+        }
+      },
+      "Name": "Nome",
+      "Description": "Descrição",
+      "Category": "Categoria",
+      "Sub-Category": "Subcategoria",
+      "Price": "Preço",
+      "Unit": "Unidade"
+    },
+    "French": {
+      "_metadata": {
+        "display_name": "Liste de services",
+        "display_language": "Français",
+        "phrases": {
+          "Sort": "Sorte",
+          "Filter": "Filtre",
+          "More": "Plus",
+          "Less": "Moins",
+          "Sorry, no results": "Desole, zero resultats",
+          "There are no results to display based on the selected filters. Try removing a filter to see more results.": "",
+          "and": "et",
+          "or": "ou",
+          "Details": "Détails"
+        }
+      },
+      "Name": "Nom de famille et prenom",
+      "Description": "Description",
+      "Category": "Catégorie",
+      "Sub-Category": "Sous-catégorie",
+      "Price": "Prix",
+      "Unit": "Unité"
+    },
+    "Russian": {
+      "_metadata": {
+        "display_name": "Услуги",
+        "display_language": "Язык",
+        "phrases": {
+          "Sort": "Тип",
+          "Filter": "Фильтр",
+          "More": "Больше",
+          "Less": "Меньше",
+          "Sorry, no results": "Простите, но мы ничего не нашли",
+          "There are no results to display based on the selected filters. Try removing a filter to see more results.": "",
+          "and": "И",
+          "or": "или",
+          "Details": "Подробнее"
+        }
+      },
+      "Name": "Имя",
+      "Description": "Описание",
+      "Category": "Категория",
+      "Sub-Category": "Подкатегория",
+      "Price": "Цена",
+      "Unit": "Значение"
+    },
+    "Indonesian": {
+      "_metadata": {
+        "display_name": "Daftar jasa",
+        "display_language": "Bahasa Indonesia",
+        "phrases": {
+          "Sort": "Jenis",
+          "Filter": "Filter",
+          "More": "Lebih",
+          "Less": "Kurang",
+          "Sorry, no results": "Maaf, tidak ada hasil",
+          "There are no results to display based on the selected filters. Try removing a filter to see more results.": "",
+          "and": "dan",
+          "or": "atau",
+          "Details": "Detail"
+        }
+      },
+      "Name": "Nama",
+      "Description": "Uraian",
+      "Category": "Kategori",
+      "Sub-Category": "Subkategori",
+      "Price": "Harga",
+      "Unit": "Unit"
+    },
+    "Dutch": {
+      "_metadata": {
+        "display_name": "Service Lijst",
+        "display_language": "Nederlands",
+        "phrases": {
+          "Sort": "Sorteren",
+          "Filter": "Filter",
+          "More": "Meer",
+          "Less": "Minder",
+          "Sorry, no results": "Sorry, geen resultaten",
+          "There are no results to display based on the selected filters. Try removing a filter to see more results.": "",
+          "and": "en",
+          "or": "of",
+          "Details": "Details"
+        }
+      },
+      "Name": "Naam",
+      "Description": "Omschrijving",
+      "Category": "Categorie",
+      "Sub-Category": "Sub-Categorie",
+      "Price": "Prijs",
+      "Unit": "Eenheid"
+    },
+    "Turkish": {
+      "_metadata": {
+        "display_name": "Servis Listesi",
+        "display_language": "Türkçe",
+        "phrases": {
+          "Sort": "Sıralama",
+          "Filter": "Filtre",
+          "More": "Daha çok",
+          "Less": "Daha az",
+          "Sorry, no results": "Sonuç Bulunamadı",
+          "There are no results to display based on the selected filters. Try removing a filter to see more results.": "",
+          "and": "ve",
+          "or": "veya",
+          "Details": "Detaylar"
+        }
+      },
+      "Name": "Ad Soyad",
+      "Description": "Tanım",
+      "Category": "Kategori",
+      "Sub-Category": "Alt Kategori",
+      "Price": "Fiyat",
+      "Unit": "Zaman Birimi"
+    }
+  }
+}
